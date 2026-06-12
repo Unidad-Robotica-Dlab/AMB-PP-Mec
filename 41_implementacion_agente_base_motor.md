@@ -25,7 +25,6 @@ if (baseOnly) {
 }
 ```
 
-*Análisis:* Esta línea de código es crítica. Demuestra que el agente BASE no evalúa variables de estado interno (hambre, energía) ni variables del parche local (densidad, riesgo), reduciendo su "razonamiento" únicamente a la lectura de sus pesos genéticos y a la posibilidad física de ejecutar la acción.
 
 ## 2. El Motor de Decisión Estocástica (`sampleAction`)
 
